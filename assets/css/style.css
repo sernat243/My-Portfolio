@@ -52,6 +52,7 @@ a {
     border: 3px solid black;
     padding: 50px;
    display: flex;
+   flex-wrap: wrap;
 }
 
 .section-heading {
@@ -71,6 +72,45 @@ p {
 .bio {
     border: 3px solid black;
     max-width: 500px;
+}
+
+/* projects*/
+
+#Project1 {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid wheat;
+    margin: 5px;
+    flex: 3;
+    min-width: 200px;
+}
+
+#Project2 {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid wheat;
+    margin: 5px;
+    flex: 1;
+    min-width: 200px;
+    
+}
+
+#Project3 {
+    height: 200px;
+    width: 300px;
+    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid wheat;
+    margin: 5px;
+    flex: 1;
+    min-width: 200px;
 }
 
 
