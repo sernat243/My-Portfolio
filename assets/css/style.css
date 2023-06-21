@@ -1,27 +1,10 @@
-.section-heading {
-margin-bottom: 50px;
-margin-right: 50px;
-padding-right: 50px;
-border: 3px solid black;
-display: inline;
-min-width: 100px;
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
-p {
-    border: 3px solid black; 
-}
-
-.section {
-    margin: 50px 0;
-    border: 3px solid black;
-    padding: 50px;
-   display: flex;
-}
-
-.bio {
-    border: 3px solid black;
-    max-width: 500px;
-}
+/* header */
 
 .header {
     display: flex;
@@ -53,7 +36,33 @@ p {
     margin-left: 25px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+
+/* sections */
+.section {
+    margin: 50px 0;
+    border: 3px solid black;
+    padding: 50px;
+   display: flex;
 }
+
+.section-heading {
+margin-bottom: 50px;
+margin-right: 50px;
+padding-right: 50px;
+border: 3px solid black;
+display: inline;
+min-width: 100px;
+}
+
+p {
+    border: 3px solid black; 
+}
+
+
+.bio {
+    border: 3px solid black;
+    max-width: 500px;
+}
+
+
+
