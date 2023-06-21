@@ -24,7 +24,9 @@ p {
 }
 
 .header {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: rgb(154, 155, 157);
 }
 
