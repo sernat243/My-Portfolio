@@ -1,0 +1,57 @@
+.section-heading {
+margin-bottom: 50px;
+margin-right: 50px;
+padding-right: 50px;
+border: 3px solid black;
+display: inline;
+min-width: 100px;
+}
+
+p {
+    border: 3px solid black; 
+}
+
+.section {
+    margin: 50px 0;
+    border: 3px solid black;
+    padding: 50px;
+   display: flex;
+}
+
+.bio {
+    border: 3px solid black;
+    max-width: 500px;
+}
+
+.header {
+    display: block;
+    background-color: rgb(154, 155, 157);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
