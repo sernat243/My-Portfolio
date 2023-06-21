@@ -2,6 +2,7 @@
 a {
     text-decoration: none;
     color: white;
+    display: flex;
 }
 
 .hero {
@@ -76,41 +77,43 @@ p {
 
 /* projects*/
 
-#Project1 {
+.project {
     height: 200px;
     width: 300px;
-    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
     background-size: cover;
     background-position: center;
     border: 3px solid wheat;
     margin: 5px;
-    flex: 3;
     min-width: 200px;
+
 }
 
-#Project2 {
-    height: 200px;
-    width: 300px;
-    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
-    background-size: cover;
-    background-position: center;
-    border: 3px solid wheat;
-    margin: 5px;
-    flex: 1;
-    min-width: 200px;
+#Project1 {
+    background-image: url("../images/preview.png");
+    flex: 3;
     
 }
 
-#Project3 {
-    height: 200px;
-    width: 300px;
+.project:hover{
+    box-shadow: 0 10px 20px gray;
+}
+
+.project header {
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(57, 88, 189);
+    padding: 5px;
+    text-align: center;
+}
+
+#Project2 {
     background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
-    background-size: cover;
-    background-position: center;
-    border: 3px solid wheat;
-    margin: 5px;
     flex: 1;
-    min-width: 200px;
+}
+
+#Project3 {
+    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
+    flex: 1;
 }
 
 
