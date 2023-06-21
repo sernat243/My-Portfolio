@@ -4,6 +4,15 @@ a {
     color: white;
 }
 
+.hero {
+    background-image: url("../images/IMG-1553.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+
 /* header */
 
 .header {
