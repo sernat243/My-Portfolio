@@ -1,4 +1,8 @@
 
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -52,8 +56,8 @@ a {
     margin: 50px 0;
     border: 3px solid black;
     padding: 50px;
-   display: flex;
-   flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
 
 .section-heading {
@@ -78,43 +82,44 @@ p {
 /* projects*/
 
 .project {
-    height: 200px;
-    width: 300px;
-    background-size: cover;
-    background-position: center;
-    border: 3px solid wheat;
-    margin: 5px;
-    min-width: 200px;
+text-align: center;
+flex: 1;
 
 }
 
-#Project1 {
-    background-image: url("../images/preview.png");
-    flex: 3;
+.project img {
+    width: 100%;
+    height: 200px;
+}
+
+.project a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project h3 {
+    margin: 0;
+    background-color: gray;
+    color: white;
+    padding: 2px;
+
+}
+
+.project#Project1 {
+    flex-grow: 2;
+}
+
+
+.project:hover {
+    box-shadow: 0 10px 20px gray;
     
 }
 
-.project:hover{
-    box-shadow: 0 10px 20px gray;
+.project:hover h3 {
+    background-color: rgb(68, 68, 248);
 }
 
-.project header {
-    color: white;
-    border: 3px solid white;
-    background-color: rgb(57, 88, 189);
-    padding: 5px;
-    text-align: center;
-}
-
-#Project2 {
-    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
-    flex: 1;
-}
-
-#Project3 {
-    background-image: url("../images/Screenshot\ 2022-05-06\ 114520.png");
-    flex: 1;
-}
 
 
 
