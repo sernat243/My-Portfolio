@@ -36,11 +36,19 @@
   
   .header nav ul {
     list-style-type: none;
+    margin-left: 50px;
   }
   
   .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+  }
+
+  .header img {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 50px;
   }
   
   /* Sections */
