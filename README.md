@@ -9,7 +9,7 @@ Welcome to my portfolio website! This webpage showcases my journey as a coding s
 - [Resume](#resume)
 - [Usage](#usage)
 - [Screenshot](#screenshot)
-- [License] (#License)
+- [License](#License)
 
 ## About Me
 In the **About Me** section, you'll find a short bio that highlights my passion for coding and my educational background. I hold a Bachelor's degree in Business from the University of Texas at San Antonio, and I'm currently pursuing my coding journey to further enhance my skills and knowledge in this exciting field. Combining my business acumen with coding expertise, I'm dedicated to delivering high-quality solutions and staying up-to-date with industry trends.
