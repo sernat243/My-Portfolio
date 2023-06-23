@@ -26,7 +26,7 @@ The **Resume** section will soon feature my actual resume, providing a comprehen
 To view my portfolio website, please visit [desired_website_link](https://www.example.com).
 
 ## Screenshot
-![Portfolio Website Screenshot](./assets/images/portfolio%20preview.pngscreenshot.png)
+![Portfolio Website Screenshot](./assets/images/portfolio-preview.png)
 
 Thank you for visiting my portfolio website! I hope you enjoy exploring my projects and learning more about my coding journey. If you have any feedback or suggestions, please feel free to reach out.
 
