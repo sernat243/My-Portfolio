@@ -136,9 +136,11 @@
   }
   
   .hero {
-    background-image: url("../images/IMG-1553.jpg");
-    background-size: cover;
+    background-image: url("../images/hero.png");
+    background-size: 100% auto;
     background-position: center;
     height: 500px;
     width: 100%;
+    display: flex;
+    
   }
