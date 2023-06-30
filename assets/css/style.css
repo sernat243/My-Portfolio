@@ -8,6 +8,10 @@
     text-decoration: none;
     display: flex;
   }
+
+  p {
+    margin: 20px;
+  }
   
   body {
     background-color: black;
